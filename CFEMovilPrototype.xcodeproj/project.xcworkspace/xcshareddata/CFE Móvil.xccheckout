@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>80D0ACDF-2ED4-4EAE-BB59-2A4F9E5545A1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CFE Móvil</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>164A1C9D0B41109996783BF05883D1A5C2B123EA</key>
+		<string>https://bitbucket.org/adminpretzel/cfemovilprototype</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CFE Móvil.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>164A1C9D0B41109996783BF05883D1A5C2B123EA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/adminpretzel/cfemovilprototype</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>164A1C9D0B41109996783BF05883D1A5C2B123EA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>164A1C9D0B41109996783BF05883D1A5C2B123EA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CFEMovilPrototype</string>
+		</dict>
+	</array>
+</dict>
+</plist>
