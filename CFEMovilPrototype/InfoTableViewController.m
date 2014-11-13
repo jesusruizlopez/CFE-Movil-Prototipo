@@ -52,6 +52,7 @@
     selectedSegment = 0;
     
     NSString *titleString = @"";
+    
     if (selectedSegment == 0)
         titleString = @"Mapa CFE";
     else
@@ -260,6 +261,15 @@
         [self.tableView setBackgroundView:nil];
         [self.tableView reloadData];
     }
+    
+    NSString *titleString = @"";
+    
+    if (selectedSegment == 0)
+        titleString = @"Mapa CFE";
+    else
+        titleString = @"Tarifas 2014";
+    
+    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:titleString style:UIBarButtonItemStylePlain target:nil action:nil];
 }
 
 - (IBAction)changeView:(id)sender {

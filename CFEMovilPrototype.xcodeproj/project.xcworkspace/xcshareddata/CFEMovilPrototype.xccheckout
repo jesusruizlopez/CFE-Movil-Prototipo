@@ -10,14 +10,14 @@
 	<string>CFEMovilPrototype</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>164A1C9D0B41109996783BF05883D1A5C2B123EA</key>
+		<key>D217AAEA29454D6A114F5E0B8D5623A778FE68BE</key>
 		<string>https://bitbucket.org/adminpretzel/cfemovilprototype</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>CFEMovilPrototype.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>164A1C9D0B41109996783BF05883D1A5C2B123EA</key>
+		<key>D217AAEA29454D6A114F5E0B8D5623A778FE68BE</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>164A1C9D0B41109996783BF05883D1A5C2B123EA</string>
+	<string>D217AAEA29454D6A114F5E0B8D5623A778FE68BE</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>164A1C9D0B41109996783BF05883D1A5C2B123EA</string>
+			<string>D217AAEA29454D6A114F5E0B8D5623A778FE68BE</string>
 			<key>IDESourceControlWCCName</key>
 			<string>CFEMovilPrototype</string>
 		</dict>

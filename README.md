@@ -31,6 +31,8 @@ Puntos clave de la aplicación:
 * **Navegación rápida y detallada**
 * **Optimización de procesos y recursos**
 
+**[Presentación Prototipo - Puntos clave](http://bit.ly/1v56jEK)**
+
 Con todo esto, la aplicación CFE Móvil, es una aplicación que brinda calidad a los clientes de CFE.
 
 ## Especificaciones
@@ -52,9 +54,7 @@ Para instalar el proyecto y hacerlo funcionar, es necesario abrirlo con Xcode en
 
 ## IPA
 
-**[Último .ipa generado (TestFlight)](http://bit.ly/1sbzy23)**
-
-**[Último .ipa generado (Google Drive)](http://bit.ly/1sbA28j)**
+**[Último .ipa generado (TestFlight)](https://bit.ly/1sG9Ti0)**
 
 ## Vídeo
 

@@ -511,9 +511,11 @@
 				TargetAttributes = {
 					94E9969219E7DE96008E6ED4 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 65YP44W5Q7;
 					};
 					94E996AE19E7DE96008E6ED4 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 65YP44W5Q7;
 						TestTargetID = 94E9969219E7DE96008E6ED4;
 					};
 				};
@@ -679,6 +681,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "eacc5469-cc2b-446e-90cc-81b0af8ff05c";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -714,6 +717,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "eacc5469-cc2b-446e-90cc-81b0af8ff05c";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -725,6 +729,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CFEMovilPrototype",
@@ -733,8 +739,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5bc5cad3-de0f-4dd7-a77a-0e5a2f47fc6b";
+				PRODUCT_NAME = CFEMovilPrototype;
+				PROVISIONING_PROFILE = "eacc5469-cc2b-446e-90cc-81b0af8ff05c";
 				SWIFT_OBJC_BRIDGING_HEADER = "CFEMovilPrototype/CFEMovilPrototype-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -746,6 +752,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CFEMovilPrototype",
@@ -754,8 +762,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5bc5cad3-de0f-4dd7-a77a-0e5a2f47fc6b";
+				PRODUCT_NAME = CFEMovilPrototype;
+				PROVISIONING_PROFILE = "eacc5469-cc2b-446e-90cc-81b0af8ff05c";
 				SWIFT_OBJC_BRIDGING_HEADER = "CFEMovilPrototype/CFEMovilPrototype-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -765,6 +773,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -775,7 +785,8 @@
 				);
 				INFOPLIST_FILE = CFEMovilPrototypeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CFEMovilPrototypeTests;
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFEMovilPrototype.app/CFEMovilPrototype";
 			};
 			name = Debug;
@@ -784,13 +795,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = CFEMovilPrototypeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CFEMovilPrototypeTests;
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFEMovilPrototype.app/CFEMovilPrototype";
 			};
 			name = Release;

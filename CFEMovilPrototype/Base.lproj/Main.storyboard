@@ -1350,16 +1350,6 @@
                                         <segue destination="cai-36-c7V" kind="push" id="JDh-xi-8xF"/>
                                     </connections>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="imZ-om-adu">
-                                    <rect key="frame" x="274" y="69" width="30" height="30"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <state key="normal" image="icon_help.png">
-                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                    </state>
-                                    <connections>
-                                        <segue destination="cvD-Qa-KlE" kind="push" id="0Fi-Q7-U9b"/>
-                                    </connections>
-                                </button>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_number.png" id="nRo-xb-cbY">
                                     <rect key="frame" x="18" y="15" width="30" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1733,7 +1723,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YUO-UC-XmL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3335" y="3164"/>
+            <point key="canvasLocation" x="2828" y="2180"/>
         </scene>
         <!--Item-->
         <scene sceneID="zFv-hs-kKe">
@@ -1898,7 +1888,13 @@
                             <outlet property="delegate" destination="22I-qY-Ye8" id="qRY-5d-XTD"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="CFE" id="cvY-kf-Fdb"/>
+                    <navigationItem key="navigationItem" title="CFE" id="cvY-kf-Fdb">
+                        <barButtonItem key="rightBarButtonItem" image="icon_help.png" id="f9a-3v-K1n">
+                            <connections>
+                                <segue destination="cvD-Qa-KlE" kind="push" id="rxR-f8-rM1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="av4-Fi-f2R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
