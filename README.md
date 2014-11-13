@@ -10,9 +10,9 @@ Al iniciar se le proporciona al usuario un tutorial de introducción, el cual mu
 
 #### Módulos
 
-La aplicación cuenta con 5 módulos principales que cubren la necesidades de la CFE, los cuales son:
+La aplicación cuenta con 5 módulos principales que cubren las necesidades de la CFE, los cuales son:
 
-* **Reportes de Fallas:** Levanta reportes acerca de tu servicios, consulta reportes anteriores y el seguimiento de los mismos.
+* **Reportes de Fallas:** Levanta reportes acerca de tu servicios de luz, consulta reportes anteriores y el seguimiento de los mismos.
 
 * **Quejas y Denuncias:** Al igual que el módulo anterior, este módulo permite exponer los fallos dentro de CFE para su corrección.
 
@@ -24,7 +24,7 @@ La aplicación cuenta con 5 módulos principales que cubren la necesidades de la
 
 #### Propuesta de valor
 
-Puntos claves de la aplicación:
+Puntos clave de la aplicación:
 
 * **Diseño simple y funcional**
 * **Buenas prácticas y estándares en las soluciones**
@@ -37,7 +37,7 @@ Con todo esto, la aplicación CFE Móvil, es una aplicación que brinda calidad 
 
 La versión demo está optimizada para dispositivos con iOS 8.0 o superior y iPhone de 4' (iPhone 5, 5c y 5s).
 
-Muchas de las funcionalidades de la aplicación no muestran el funcionamiento real que tomaría al ser desarrollado.
+Muchas de las funcionalidades de la aplicación no muestra el funcionamiento real que tomaría al ser desarrollado.
 
 ## Requisitos
 
